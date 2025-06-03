@@ -50,6 +50,15 @@ In a new terminal tab:
 conda activate secchat
 streamlit run app.py
 ```
+
+Optional: Share with Friends
+Want to share your app over the internet? Use ngrok:
+
+``` bash
+brew install ngrok
+ngrok config add-authtoken YOUR_AUTHTOKEN
+ngrok http 8501
+```
 📜 License
 MIT License – free to use and modify!
 
